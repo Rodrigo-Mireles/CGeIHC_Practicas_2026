@@ -1,0 +1,48 @@
+﻿  Camera.cpp
+  Mesh_tn.cpp
+  Model.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Model.cpp(17,88): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+      C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Model.cpp(17,88):
+      los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 2
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Model.cpp(97,78): warning C4267: 'argumento': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Model.cpp(97,62): warning C4267: 'argumento': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+  P05-317104143.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "P05-317104143.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "P05-317104143.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\P05-317104143.cpp(149,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\P05-317104143.cpp(151,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Shader_m.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Shader_m.cpp(144,24): warning C4267: '=': conversión de 'size_t' a 'GLint'; posible pérdida de datos
+  Skybox.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Skybox.cpp(30,47): warning C4267: 'argumento': conversión de 'size_t' a 'GLenum'; posible pérdida de datos
+  Sphere.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Sphere.cpp(39,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Sphere.cpp(43,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Sphere.cpp(91,50): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Sphere.cpp(94,51): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Sphere.cpp(98,50): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Sphere.cpp(108,42): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+  Window.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(151,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(152,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(156,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(157,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(159,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(160,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 5\Window.cpp(87): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  All 802 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Practica 5.vcxproj -> C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\x64\Release\Practica 5.exe
