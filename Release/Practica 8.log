@@ -1,0 +1,28 @@
+﻿  P08-317104143.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "P08-317104143.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "P08-317104143.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\P08-317104143.cpp(141,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\P08-317104143.cpp(143,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Window.cpp
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "Window.cpp")
+  
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.cpp(148,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.cpp(149,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.cpp(153,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.cpp(154,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.cpp(156,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\Practica 8\Window.cpp(157,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  Generando código
+  45 of 1081 functions ( 4.2%) were compiled, the rest were copied from previous compilation.
+    9 functions were new in current compilation
+    40 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Practica 8.vcxproj -> C:\Users\Rodrigo Mireles\Documents\2026-2\Com Grafica\Lab Grafica\LabCGeiHC_2026\x64\Release\Practica 8.exe
