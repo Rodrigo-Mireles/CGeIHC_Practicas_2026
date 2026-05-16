@@ -102,7 +102,7 @@ void CreateShaders() {
 }
 
 int main() {
-	mainWindow = Window(1366, 768);
+	mainWindow = Window(1200, 800);
 	mainWindow.Initialise();
 
 	CreateObjects();
@@ -136,7 +136,7 @@ int main() {
 	// =========================================================
 	// PRECARGA DE LA TRAYECTORIA SENOIDAL (Los 12 Keyframes)
 	// =========================================================
-	KeyFrame[0].movAvion = -6.0f;  KeyFrame[0].movAvion_y = 2.0f; KeyFrame[0].rotAvion = 180.0f;
+	/*KeyFrame[0].movAvion = -6.0f;  KeyFrame[0].movAvion_y = 2.0f; KeyFrame[0].rotAvion = 180.0f;
 	KeyFrame[1].movAvion = -2.0f;  KeyFrame[1].movAvion_y = 4.0f; KeyFrame[1].rotAvion = 180.0f;
 	KeyFrame[2].movAvion = 2.0f;   KeyFrame[2].movAvion_y = 0.0f; KeyFrame[2].rotAvion = 180.0f;
 	KeyFrame[3].movAvion = 6.0f;   KeyFrame[3].movAvion_y = 4.0f; KeyFrame[3].rotAvion = 180.0f;
@@ -147,9 +147,9 @@ int main() {
 	KeyFrame[8].movAvion = 6.0f;   KeyFrame[8].movAvion_y = 4.0f; KeyFrame[8].rotAvion = 0.0f;
 	KeyFrame[9].movAvion = 2.0f;   KeyFrame[9].movAvion_y = 0.0f; KeyFrame[9].rotAvion = 0.0f;
 	KeyFrame[10].movAvion = -2.0f; KeyFrame[10].movAvion_y = 4.0f; KeyFrame[10].rotAvion = 0.0f;
-	KeyFrame[11].movAvion = -6.0f; KeyFrame[11].movAvion_y = 2.0f; KeyFrame[11].rotAvion = 0.0f;
+	KeyFrame[11].movAvion = -6.0f; KeyFrame[11].movAvion_y = 2.0f; KeyFrame[11].rotAvion = 0.0f;*/
 
-	FrameCount = 12; // Ya tenemos 12 cuadros en memoria
+	FrameCount = 0; // Ya tenemos 12 cuadros en memoria
 
 	// Colocamos la nave en la posición inicial (Frame 0)
 	movAvion = KeyFrame[0].movAvion;
@@ -173,12 +173,17 @@ int main() {
 		// MODO MANUAL (Si quieres agregar más keyframes con 'L')
 		// =========================================================
 		if (!play) {
-			if (mainWindow.getsKeys()[GLFW_KEY_1]) movAvion -= manualSpeed;
-			if (mainWindow.getsKeys()[GLFW_KEY_2]) movAvion += manualSpeed;
-			if (mainWindow.getsKeys()[GLFW_KEY_3]) movAvion_y -= manualSpeed;
-			if (mainWindow.getsKeys()[GLFW_KEY_4]) movAvion_y += manualSpeed;
-			if (mainWindow.getsKeys()[GLFW_KEY_5]) rotAvion -= rotSpeed;
-			if (mainWindow.getsKeys()[GLFW_KEY_6]) rotAvion += rotSpeed;
+			// Eje X
+			if (mainWindow.getsKeys()[GLFW_KEY_4] || mainWindow.getsKeys()[GLFW_KEY_KP_4]) movAvion -= manualSpeed;
+			if (mainWindow.getsKeys()[GLFW_KEY_6] || mainWindow.getsKeys()[GLFW_KEY_KP_6]) movAvion += manualSpeed;
+
+			// Eje Y
+			if (mainWindow.getsKeys()[GLFW_KEY_2] || mainWindow.getsKeys()[GLFW_KEY_KP_2]) movAvion_y -= manualSpeed;
+			if (mainWindow.getsKeys()[GLFW_KEY_8] || mainWindow.getsKeys()[GLFW_KEY_KP_8]) movAvion_y += manualSpeed;
+
+			// Rotación Z
+			if (mainWindow.getsKeys()[GLFW_KEY_9] || mainWindow.getsKeys()[GLFW_KEY_KP_9]) rotAvion -= rotSpeed;
+			if (mainWindow.getsKeys()[GLFW_KEY_7] || mainWindow.getsKeys()[GLFW_KEY_KP_7]) rotAvion += rotSpeed;
 
 			// Guardar Frame
 			static bool pressedL = false;
@@ -306,7 +311,7 @@ int main() {
 		// --- LÓGICA DE ALETEO PROCEDURAL ---
 		float anguloAleteo = 0.0f;
 		if (play) {
-			tiempoAleteo += 6.0f * deltaTime;
+			tiempoAleteo += 0.5f * deltaTime;
 			anguloAleteo = sin(tiempoAleteo) * 45.0f;
 		}
 
